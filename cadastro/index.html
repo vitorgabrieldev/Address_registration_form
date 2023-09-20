@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Faça seu cadastro gratuitamente</title>
+
+    <!-- -- | -- Import Favicon -- | -- -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- -- | -- Require Meta Tags -- | -- -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- -- | -- Import Bootstrap -- | -- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!-- -- | -- Import Style (Local) -- | -- -->
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+    <!-- -- | -- Views Components -- | -- -->
+    <form class="formContainer" method="get" action=".">
+        <div class="container">
+            <h1>Cadastro de Endereço</h1>
+            <hr>
+            <div class="form-group col-md-2">
+                <label for="inputCEP">CEP</label>
+                <input type="text" class="form-control" id="cep" placeholder="Insira seu CEP aqui">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label for="rua">Rua</label>
+                    <input type="text" class="form-control" id="rua" placeholder="Rua" disabled>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputAddress">N.º</label>
+                    <input type="text" class="form-control" id="numero" placeholder="nº 0" disabled>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputAddress2">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Apartamento, hotel, casa, etc." disabled>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="form-group col-md-3">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade" disabled>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="estado">Estado</label>
+                    <input type="text" class="form-control" id="estado" placeholder="Estado" disabled>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <button type="button" class="btn btn-primary" onclick="">Cadastrar no sistema</button>
+        </div>
+    </form>
+
+    <!-- -- | -- Import JS Local -- | -- -->
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>

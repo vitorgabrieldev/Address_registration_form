@@ -8,6 +8,13 @@
 }
 
 .formContainer {
+    padding: 2rem 0;
+}
+
+.container {
+    border-left:  1px solid rgba(56, 56, 56, 0.267);
+    border-right:  1px solid rgba(56, 56, 56, 0.267);
+
 }
 
 * {
