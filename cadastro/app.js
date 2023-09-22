@@ -26,12 +26,20 @@ const searchCEP = async() => {
         const addres = await dados.json();
         
         if(addres.hasOwnProperty('erro')){ 
-            alert('CEP não encontrado!');
+            Swal.fire(
+                'CEP não encontrado!',
+                'Digite um cep válido!',
+                'error'
+            );
         }else {
             fillOutForm(addres);
         };
     }else{
-        alert('CEP incorreto!');
+        Swal.fire(
+            'CEP incorreto!',
+            'Digite um cep válido',
+            'error'
+        );
     };
 };
 
