@@ -32,6 +32,25 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 
 2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html) no seu navegador.**
 
+## **Demonstração 💻**
+
+**Inserção automática dos campos**
+
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/autocomplete.gif)
+
+#
+
+**Cadastro realizado com sucesso**
+
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/sucesso.gif)
+
+#
+
+**Erro de cadastro**
+
+![App Screenshot](https://raw.githubusercontent.com/vitorgabrieldev/imgs_readmes/main/erro.gif)
+
+
 # Autores Principais
 
 | [<img loading="lazy" src="https://user-images.githubusercontent.com/10586424/268408057-7757b6f6-de4f-42a2-a7fe-afe91656d23e.jpg" width=95><br><sub>Leonardo Rocha</sub>](https://github.com/leonardossrocha) |  [<img loading="lazy" src="https://user-images.githubusercontent.com/86802310/268408790-48baaee3-ce37-4ad6-9348-ecb738990343.png" width=95><br><sub>Leonardo Rocha (Marista)</sub>](https://github.com/leonardorochamarista)
