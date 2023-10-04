@@ -6,7 +6,7 @@ Sistema de cadastro de endereço comsumindo a API [ViaCEP](https://viacep.com.br
 
 #
 
-**📲 Teste**
+**📲 Teste no seu navegador aqui**
 
 [``` Rodar Projeto Online ```](https://addressregistrationform.vercel.app/cadastro/)
 
