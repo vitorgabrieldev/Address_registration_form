@@ -2,7 +2,7 @@
 
 ## Descrição 📃
 
-Sistema de cadastro de endereço comsumindo a API [ViaCEP](https://viacep.com.br/) para auto completar os campos de "Rua, N°, Bairro, Cidade, Estado".
+Sistema de cadastro de endereço comsumindo a API [ViaCEP](https://viacep.com.br/) para auto completar os campos de "Rua, Bairro, Cidade, Estado".
 
 ## **Tecnologias:**
 
@@ -31,6 +31,23 @@ O projeto pode ser acessado por seu repositório no github. O código está disp
 ```
 
 2. **Abra o arquivo [index.html](https://pt.wikipedia.org/wiki/Index.html) no seu navegador.**
+
+#
+
+**⚒️ Métodos**
+
+| 🛠️ Métodos Javascript | ⚙️ Função |
+| -------- | ---------- |
+| **hasOwnProperty** | Verificar se um objeto possui uma propriedade específica |
+| **'use strict'** | Modo mais restrito de execução do código |
+| **Async** | Usada para criar funções que podem esperar por operações assíncronas usando await |
+| **Await** | Causar a execução da função até que uma operação assíncrona seja concluída. |
+| **fetch()** | Função nativa em JavaScript que permite fazer requisições HTTP para obter dados de um servidor web. |
+| **Swal.fire()** | É usado para criar uma caixa de diálogo de alerta (popup). |
+| **/^[0-9]+$/.test(numero)** | Testar se uma string corresponde a um padrão específico definido pela expressão regular. |
+| **() =>** | Sintaxe usada em JavaScript para definir funções arrow |
+
+#
 
 ## **Demonstração 💻**
 
