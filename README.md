@@ -4,6 +4,12 @@
 
 Sistema de cadastro de endereço comsumindo a API [ViaCEP](https://viacep.com.br/) para auto completar os campos de "Rua, Bairro, Cidade, Estado".
 
+#
+
+** 📲 Teste**
+
+[``` Rodar Projeto Online ```](https://addressregistrationform.vercel.app/cadastro/)
+
 ## **Tecnologias:**
 
 | ⚙ Tipo | 💻 Tecnologia |
